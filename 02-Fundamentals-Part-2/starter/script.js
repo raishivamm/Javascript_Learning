@@ -179,30 +179,141 @@
 
 // Objects
 
-const shivamArray = [
-        'Shivam',
-        'Rai',
-        23,
-        'Student',
-        ['Rohit','Tabish','Arpit']
-];
-console.log(shivamArray);
+// const shivamArray = [
+//         'Shivam',
+//         'Rai',
+//         23,
+//         'Student',
+//         ['Rohit','Tabish','Arpit']
+// ];
+// console.log(shivamArray);
 
-const shivamObject={
-        firstName: 'Shivam',
-        lastName : 'Rai',
-        age:24,
-        profession: 'Student',
-        friends:['Rohit','Tabish','Arpit']
-};
-console.log(shivamObject);
+// const shivamObject={
+//         firstName: 'Shivam',
+//         lastName : 'Rai',
+//         age:24,
+//         profession: 'Student',
+//         friends:['Rohit','Tabish','Arpit']
+// };
+// console.log(shivamObject);
 
-console.log(shivamObject.firstName);
-console.log(shivamObject['firstName']);
+// console.log(shivamObject.firstName);
+// console.log(shivamObject['firstName']);
 
-const keyValue = 'Name';
-console.log(shivamObject['first'+keyValue]);
-console.log(shivamObject['last'+keyValue]);
+// const keyValue = 'Name';
+// console.log(shivamObject['first'+keyValue]);
+// console.log(shivamObject['last'+keyValue]);
+
+// const interestedIn = prompt(`What do you want to know about shivamObject choose between first name last 
+//  name job and age`);
+// console.log(shivamObject[interestedIn]);
+
+// shivamObject.location='India';
+// shivamObject['twitter'] = '@raiShivamm';
+// console.log(shivamObject);
+
+// console.log(`${shivamObject.firstName} has ${shivamObject.friends.length} friends and the best friend is ${shivamObject.friends[0]}`);
+
+// Objects Methods
+
+// const shivam={
+//         firstName: 'Shivam',
+//         lastName : 'Rai',
+//         birthYear:1999,
+//         age:24,
+//         profession: 'Student',
+//         friends:['Rohit','Tabish','Arpit'],
+//         hasDrivingLicense:false,
+//         // calcAge:function(birthYear){
+//         //         return 2023-birthYear;
+//         // },
+//         // calcAge:function(){
+//         //         console.log(this);
+//         //         return 2023-this.birthYear;
+//         // }
+//         calcAge:function(){
+//                 this.age = 2023-this.birthYear;
+//                 return this.age;
+//         },
+//         getSummary: function(){
+//                 return `${this.firstName} is a ${this.calcAge()} years old teacher, and he has ${this.hasDrivingLicense ? 'a' : 'no'} drivers license`;
+//         }
+// };
+
+// console.log(shivam.getSummary());
+// console.log(shivam.calcAge());
+// console.log(shivam['calcAge'](1999));
+
+// const mark = {
+//         fullName : "Mark Miller's",
+//         mass : 78,
+//         height : 1.69,
+//         calcBMI : function(){
+//             mark.bmi = this.mass/(this.height*this.height);
+//             return this.bmi;
+//         }
+//     };
+    
+//     const john = {
+//         fullName : "John Smith's",
+//         mass : 92,
+//         height : 1.95,
+//         calcBMI : function(){
+//             john.bmi = this.mass/(this.height*this.height);
+//             return this.bmi;
+//         }
+        
+//     };
+//     let johnBMI = john.calcBMI();
+//     let markBMI = mark.calcBMI();
+    
+//     if(johnBMI> markBMI){
+//         console.log(`${john.fullName} BMI (${johnBMI}) is higher than ${mark.fullName} (${markBMI}) !`);
+//     }
+//     else{
+//         console.log(`${mark.fullName} BMI (${markBMI}) is higher than ${john.fullName} (${johnBMI}) !`);
+//     }
+
+// for loop
+
+// for(let rep=1;rep<=10;rep++){
+//         console.log('Lifting Weights Repetition '+rep);
+// }
+
+// const shivamArray = [
+//         'Shivam',
+//         'Rai',
+//         23,
+//         'Student',
+//         ['Rohit','Tabish','Arpit']
+// ];
+// const types = [];
+
+// for(let i=0;i<shivamArray.length;i++){
+//         console.log(shivamArray[i], typeof shivamArray[i]);
+//         types.push(typeof shivamArray[i]);
+// }
+// console.log(types);
+
+// const birthYear = [1991,1994,1999,2004];
+// const ages = [];
+// for(let i =0;i<birthYear.length;i++){
+//         ages.push(2023-birthYear[i]);
+// }
+// console.log(ages);
+
+// While loop
+
+let i =1;
+while(i<11){
+        console.log(`Lifting Weights Repetition ${i}`);
+        i++;
+}
+
+
+
+
+
 
 
 
